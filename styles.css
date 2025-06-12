@@ -36,10 +36,11 @@ body > div > .line1{
 }
 
 body > div > .line2{
-    width: 30px;
+    width: 10px;
     background-color: white;
     border-radius: 100px;
-    height: 80px;
+    height: auto;
+    flex-shrink: 0;
     margin: 30px;
 }
 
@@ -50,4 +51,5 @@ body > div > .line2{
 
 .biografija-content{
     display: flex;
+    align-content: center;
 }
