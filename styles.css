@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+p{
+    color : white;
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    margin: 30px;
+    font-size: 70px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.heading-image{
+    width: 100%;
+    height: 100%;
+}
+
+body > div > .line1{
+    width: 90%;
+    background-color: white;
+    border-radius: 100px;
+    height: 10px;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+body > div > .line2{
+    width: 30px;
+    background-color: white;
+    border-radius: 100px;
+    height: 80px;
+    margin: 30px;
+}
+
+.seperator{
+    display: flex;
+    justify-content: center;
+}
+
+.biografija-content{
+    display: flex;
+}
