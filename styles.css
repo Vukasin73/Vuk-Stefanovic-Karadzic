@@ -36,7 +36,8 @@ body > div > .line1{
 }
 
 body > div > .line2{
-    width: 10px;
+    min-width: 10px;
+    max-width: 10px;
     background-color: white;
     border-radius: 100px;
     height: auto;
@@ -53,3 +54,28 @@ body > div > .line2{
     display: flex;
     align-content: center;
 }
+
+.biografija-nabrajanje{
+    display: flex;
+    flex-direction: column;
+}
+
+.dot{
+    min-width: 10px;
+    max-width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 30px;
+}
+
+.linija{
+    display: flex;
+    align-content: center;
+}
+
+.linija p{
+    margin: 10px 30px;
+    padding: 0;
+}
+
