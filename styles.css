@@ -58,6 +58,7 @@ body > div > div > .line2{
 
 .biografija-content{
     display: flex;
+    align-items: center;
 }
 
 .biografija-nabrajanje{
@@ -102,6 +103,11 @@ body > div > div > .line2{
     height: 350px;
     border-radius: 10%;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+a{
+    color: white;
+    font-size: 20px;
 }
 
 
