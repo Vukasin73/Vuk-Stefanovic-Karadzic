@@ -192,3 +192,14 @@ a{
     }
 }
 
+@media (hover: none) {
+    .image-meni:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .biografija-content a:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
