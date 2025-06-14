@@ -24,7 +24,7 @@ h2{
 h3{
     text-align: center;
     color: #ac8a0d;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .heading-image{
@@ -96,15 +96,22 @@ body > div > div > .line2{
 
 .meni{
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: center;
+    align-items: center;
+}   
 
 .image-meni{
     width: 350px;
     height: 350px;
     border-radius: 10%;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    margin-bottom: 20px;
+    object-fit: cover;
+    width: 25vw;                   /* shrink based on screen size */
+    height: 25vw;                  /* keep square shape */
+    max-width: 350px;              /* limit max size */
+    max-height: 350px;
+    min-width: 100px;              /* optional: minimum size */
+    min-height: 100px;
 }
 
 a{
@@ -119,7 +126,7 @@ a{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-a:hover {
+ .biografija-content a:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     cursor: pointer;
@@ -127,42 +134,14 @@ a:hover {
     border-radius: 100px;
 }
 
-@media (max-width: 768px) {
-    .image-meni {
-        width: 100%;
-        height: auto;
-    }
-    
-    .meni {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    h3,p{
-        font-size: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    h1{
-        font-size: 35px;
-    }
-
-    h2{
-        font-size: 15px;
-    }
-
-    .line2{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    .okvir{
-        padding: 5px;
-    }
-
-    .dot{
-        margin-left: 30px;
-        margin-right: 5px;
-    }
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 20px;
+    text-align: center;
+    flex: 1;
+    justify-content: space-between;
 }
+
