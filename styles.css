@@ -164,7 +164,7 @@ a{
     }
 
     h1{
-        font: 28px;
+        font: 25px;
     }
 
     h2{
@@ -190,14 +190,21 @@ a{
         margin-left: 5px;
         margin-right: 5px;
     }
+}
 
+@media (hover: hover) and (pointer: fine) {
     .image-meni:hover {
-        transform: none;
-        box-shadow: none;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .biografija-content a:hover {
-        transform: none;
-        box-shadow: none;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 100px;
     }
 }
